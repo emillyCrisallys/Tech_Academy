@@ -1,0 +1,127 @@
+* {
+    /* retirar a margem externa */
+    margin: 0;
+    /* retirar a margem interna */
+    padding: 0;
+}
+
+/* formatar o corpo */
+body {
+    font-family: Arial, Verdana;
+    font-size: 16px;
+    background-color: goldenrod;
+}
+
+h1 {
+    /* centralizar */
+    text-align: left;
+    /* maiúsculo */
+    text-transform: uppercase;
+    /* tamanho da fonte */
+    font-size: 32px;
+    line-height: 1.5;
+    
+}
+
+p{
+    text-align: left;  
+    
+}
+
+header {/*Titulo */
+    /* cor de fundo */
+    background-color: #FFF;
+    /* largura */
+    width: 100%;
+    /* sombra */
+    box-shadow: 0 0 10px #CCC;
+}
+
+.centro {
+    /* tamanho - largura */
+    width: 1000px;
+    /* centralizar */
+    margin: auto;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+
+
+#inicio{
+   padding-left: 50px;
+   /*sombra*/
+   box-shadow: 0 0 10px #131313;
+   /*borda arredondada**/
+   border-radius: 10%;
+   /*margem externa*/
+   margin: 100px;
+   background-color:#DCDCDC;
+   
+   
+}
+
+.coluna img{
+    /*largura*/
+    width: 100%;
+    /*arredondar cantos img parte superior, por isso tem somente 2 valores (se colocar somente um valor vai arredondar os quatro lados)*/
+    border-radius: 10px 10px 10px 10px;
+   
+
+}
+
+#contato{
+    background-color: #F1F1F1;
+}
+
+input, textarea {
+    /*largura*/
+    width: 100%;
+    /*borda*/
+    border: 1px solid #CCC;
+    /*margem interna*/
+    padding: 10px;
+    /*retirar os 20px dos 100% do width (minha borda não pode passar de 100%*/
+    box-sizing: border-box;
+     /*dar um espaço entre os labels*/
+    margin-bottom: 10px;
+}
+
+label {
+    /*negrito*/
+    font-weight: bold;
+    /*dar um espaço entre os labels*/
+    margin-bottom: 10px;
+    display: block;
+}
+button {
+    background-color: rgba(164, 3, 251, 0.755);
+    padding: 10px;  
+    border: 10px;
+    margin-top: 10px;/*margem em cima do botão*/
+    border-radius: 10px;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.footer-menu-item{
+    text-align: right ;
+    font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	font-size: 0.8rem;
+}
+
+
+
