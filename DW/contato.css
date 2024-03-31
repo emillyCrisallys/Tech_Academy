@@ -1,49 +1,3 @@
-
-input, textarea {
-    /*largura*/
-    width: 100%;
-    /*borda*/
-    border: 1px solid #CCC;
-    /*margem interna*/
-    padding: 10px;
-    /*retirar os 20px dos 100% do width (minha borda não pode passar de 100%*/
-    box-sizing: border-box;
-     /*dar um espaço entre os labels*/
-    margin-bottom: 10px;
-}
-
-label {
-    /*negrito*/
-    font-weight: bold;
-    /*dar um espaço entre os labels*/
-    margin-bottom: 10px;
-    display: block;
-}
-button {
-    background-color: rgba(164, 3, 251, 0.755);
-    padding: 10px;  
-    border: 10px;
-    margin-top: 10px;/*margem em cima do botão*/
-    border-radius: 10px;
-
-}
-
-footer{
-    background-color: black;
-    color: white;
-    padding: 30px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.footer-menu-item{
-    text-align: right ;
-    font-weight: bold;
-	text-transform: uppercase;
-	color: white;
-	font-size: 0.8rem;
-}
-
 * {
     /* retirar a margem externa */
     margin: 0;
@@ -122,52 +76,10 @@ li {
     background-color: #F1F1F1;
 }
 
-input, textarea {
-    /*largura*/
-    width: 100%;
-    /*borda*/
-    border: 1px solid #CCC;
-    /*margem interna*/
-    padding: 10px;
-    /*retirar os 20px dos 100% do width (minha borda não pode passar de 100%*/
-    box-sizing: border-box;
-     /*dar um espaço entre os labels*/
-    margin-bottom: 10px;
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-
-label {
-    /*negrito*/
-    font-weight: bold;
-    /*dar um espaço entre os labels*/
-    margin-bottom: 10px;
-    display: block;
-}
-button {
-    background-color: rgba(164, 3, 251, 0.755);
-    padding: 10px;  
-    border: 10px;
-    margin-top: 10px;/*margem em cima do botão*/
-    border-radius: 10px;
-
-}
-
-footer{
-    background-color: black;
-    color: white;
-    padding: 30px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.footer-menu-item{
-    text-align: right ;
-    font-weight: bold;
-	text-transform: uppercase;
-	color: white;
-	font-size: 0.8rem;
-}
-
-
 
 input, textarea {
     /*largura*/
@@ -189,6 +101,7 @@ label {
     margin-bottom: 10px;
     display: block;
 }
+
 button {
     background-color: rgba(164, 3, 251, 0.755);
     padding: 10px;  
@@ -198,18 +111,5 @@ button {
 
 }
 
-footer{
-    background-color: black;
-    color: white;
-    padding: 30px;
-    box-sizing: border-box;
-    text-align: center;
-}
 
-.footer-menu-item{
-    text-align: right ;
-    font-weight: bold;
-	text-transform: uppercase;
-	color: white;
-	font-size: 0.8rem;
-}
+
