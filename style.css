@@ -21,13 +21,10 @@ body {
     box-sizing: border-box;
     position: fixed;
     top: 0;
+    
 }
 
-.header_nav{
-    display: flex;
-    justify-content:right;
-    align-items: center;
-}
+
 
 .header .header_logo{
     float: left;
@@ -39,6 +36,8 @@ img{
 }
 
 .header .header_nav{
+    display: block;
+    width: auto;
     float: right;
     font: 20px "Teko";
         
@@ -55,11 +54,12 @@ header .header_nav ul li a {
     text-decoration: none;
     font-family: "Teko", Arial, Helvetica, sans-serif;
     list-style: none;
+    
 }
 
 .header .header_nav ul {
     list-style: none;
-  
+    
 }
 
 li {
@@ -69,6 +69,7 @@ li {
 
 
 .img_inicial img {
+    min-height: 500px;
     width: 100%;
 }
 
@@ -92,9 +93,9 @@ p{
 }
 
 .imagens_Jogo{
-    padding: 125px;
+    padding: 110px;
     box-sizing: border-box;
-    
+
 }
 
 
@@ -103,11 +104,17 @@ p{
     display: flex;
     flex-wrap: wrap;
     
-    
 }
+
 .centro {
     text-align: center;
     
+}
+
+.centro1 {
+    text-align: left;
+    justify-content: center;
+   
 }
 
 section {
@@ -128,7 +135,8 @@ section {
 }
 
 #inicio{
-   padding-left: 50px;
+    
+   padding-left: 40px;
    /*sombra*/
    box-shadow: 0 0 10px #131313;
    /*borda arredondada**/
@@ -142,10 +150,11 @@ section {
 
 .coluna img{
     /*largura*/
-    width: 100%;
+    width: 80%;
     /*arredondar cantos img parte superior, por isso tem somente 2 valores (se colocar somente um valor vai arredondar os quatro lados)*/
     border-radius: 10px 10px 10px 10px;
-   
+    height: 460px;
+    margin-left: 68px;
 
 }
 
@@ -182,21 +191,30 @@ button {
 
 }
 
-footer{
-    background-color: black;
-    color: white;
-    padding: 30px;
-    box-sizing: border-box;
-    text-align: center;
+footer {
+    display: block;
+    unicode-bidi: isolate;
 }
 
 .footer-menu-item{
-    text-align: right ;
-    font-weight: bold;
-	text-transform: uppercase;
-	color: white;
-	font-size: 0.8rem;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+
+    
+    
 }
 
 
 
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 430px) {
+    
+}

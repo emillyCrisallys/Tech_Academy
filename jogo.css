@@ -67,11 +67,27 @@ li {
     text-align: -webkit-match-parent;
 }
 
-.centro {
+.centro1 {
     text-align: center;
+
 }
 
+
+main{
+    display: block;
+    unicode-bidi: isolate;
+    margin: 150px auto;
+    width: 1000px;
+    text-align: center;
+}
 h2 {
-    font: 24px "IM Fell DW Pica SC";
-    color: #F00;
+    margin: 10px;
+    font: 24px;
+    color:rgb(232, 84, 10);;
+}
+
+iframe {
+    padding-top: 50px;
+    border: 0;
+    border-radius: 10px;
 }
