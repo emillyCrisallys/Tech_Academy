@@ -1,3 +1,9 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'metro';
+    src: url('../fonts/MetroPhotograph-DemoVersion-Regular.otf') format('opentype');
+}
+
 * {
     /* retirar a margem externa */
     margin: 0;
@@ -12,6 +18,8 @@ body {
     background-color: rgb(216, 239, 247);
     
 }
+
+
 
 .header {
     width: 100%;
@@ -79,13 +87,13 @@ h1 {
     /* maiúsculo */
     text-transform: uppercase;
     /* tamanho da fonte */
-    font-size: 32px;
+    font-size: 60px;
     line-height: 1.5;
-    
+    font-family: 'metro';
 }
 
 p{
-    
+    font: 20px ;
     margin: 0px;
     line-height: 25px;
     
@@ -114,7 +122,10 @@ p{
 .centro1 {
     text-align: left;
     justify-content: center;
-   
+}
+
+.centro1 h1 {
+    font-family: 'metro';
 }
 
 section {

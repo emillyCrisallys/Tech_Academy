@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'metro';
+    src: url('../fonts/MetroPhotograph-DemoVersion-Regular.otf') format('opentype');
+}
 * {
     /* retirar a margem externa */
     margin: 0;
@@ -72,7 +76,8 @@ li {
 }
 
 h2 {
-    font: 20px "Toke";
+    font: 20px "metro";
+    font-weight: bolder;
     color: rgb(232, 84, 10);
 }
 
